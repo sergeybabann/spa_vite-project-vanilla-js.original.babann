@@ -1,0 +1,21 @@
+my-mpa-project/
+├── public/
+│   ├── favicon.ico
+│   └── assets/
+├── src/
+│   ├── pages/
+│   │   ├── home/
+│   │   │   ├── home.html
+│   │   │   ├── home.scss
+│   │   │   └── Home.js
+│   │   ├── about/
+│   │   │   ├── about.html
+│   │   │   ├── about.scss
+│   │   │   └── sprint_01.js
+│   └── styles/
+│       ├── _variables.scss
+│       └── main.scss
+├── vite.config.js
+├── package.json
+├── index.html
+└── README.md

@@ -1,0 +1,48 @@
+@use '../base/_variables' as *;
+
+.sidebar2 {
+  background-color: #888888;
+  box-shadow: 1px 0.1ch 0.3vw 1px rgba(105, 105, 105, 0.8);
+  display: flex;
+  flex-direction: column;
+  //float: left;
+  justify-content: start;
+  max-width: 30%;
+  position: fixed;
+  top: 130px;
+  bottom: 0;
+  left: 70%;
+  right: 0;
+  z-index: 1;
+}
+
+.sidebar2__title {
+  font-size: 26px;
+  padding: 10px;
+  color: $color-light-1;
+  background-color: black;
+}
+
+.sidebar2__list {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 10px;
+
+}
+
+.sidebar2__item {
+  list-style: none;
+}
+
+.sidebar2__link {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar2__link:hover {
+  color: black;
+  cursor: pointer;
+}
+

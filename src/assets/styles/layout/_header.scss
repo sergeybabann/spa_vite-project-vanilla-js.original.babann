@@ -1,0 +1,41 @@
+.header__content {
+  background-color: red;
+  padding: 20px;
+}
+
+.header__wrapper-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu {
+  background-color: #747bff;
+  padding: 10px;
+
+  &-list {
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+  }
+
+  &-item {
+    list-style: none;
+  }
+
+  &-link {
+    text-decoration: none;
+    color: white;
+  }
+
+  &-link:hover {
+    color: black;
+  }
+}
+
+
+
+
+
+
+
+

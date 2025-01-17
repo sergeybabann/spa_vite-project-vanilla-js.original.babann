@@ -1,0 +1,66 @@
+@use '../base/_variables' as *;
+
+.main {
+  padding: 40px;
+}
+
+.main__wrapper-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main__title-1 {
+  font-size: $font-size-title-main-1;
+  margin-bottom: 50px;
+}
+
+.main__title-2 {
+  font-size: $font-size-title-main-2;
+}
+
+.main__span-title-1 {
+  font-size: $font-size-span-title-main-1;
+  font-weight: 400;
+}
+
+.main__link-default {
+  color: $color-content-primary;
+  text-decoration: none;
+  &:hover {
+    color: $color-link-hover-1;
+    text-decoration: underline;
+  }
+}
+
+.main__bread-crumbs {
+  display: flex;
+  gap: 20px;
+}
+
+.back-link {
+  padding: 10px;
+  background-color: $bg-gray-1;
+  color: $color-dark-1;
+  border-radius: 5px;
+  font-size: 25px;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-link-hover-1;
+    text-decoration: underline;
+  }
+}
+
+.main__list-1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  gap: 5px;
+  margin-left: 50px;
+}
+
+.main__list-1-item {
+  list-style: none;
+}
+

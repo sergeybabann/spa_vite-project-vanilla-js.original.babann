@@ -1,0 +1,7 @@
+@use '../../assets/styles/base/_variables' as *;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $background-color-alt;
+  color: $text-color;
+}
