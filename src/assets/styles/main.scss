@@ -1,4 +1,4 @@
-@use './base/_variables';
+@use './base/_variables' as *;
 @use './base/_reset';
 @use './base/_mixins';
 @use './base/_typography';
@@ -6,6 +6,7 @@
 @use './components/_button.scss';
 
 @use './layout/_header.scss';
+@use './layout/_header2.scss';
 @use 'layout/_main.scss';
 @use './layout/_footer.scss';
 @use './layout/_sidebar2.scss';
@@ -14,6 +15,13 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: variables.$bg-dark-default;
-  color: variables.$color-content-primary;
+  font-size: $font-size-text-default;
+  background-color: $bg-dark-default;
+  color: $color-content-primary;
+  line-height: 1.8rem;
+}
+
+ul, ol {
+  padding: 0 50px 0 50px;
+  line-height: 2.5rem;
 }

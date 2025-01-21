@@ -31,7 +31,14 @@ export default function Sprint_01() {
     <div class="main">
         <h3 class="main__title-1">1 Спринт: Семантика и лэйаут</h3>
         <ul class="main__list-1">
-            <li class="main__list-1-item"><a href="/sprint_01/theme_01" class="main__link-default">Интро в Спринт</a></li>           
+            <li class="main__list-1-item"><a href="/sprint_01/theme_01" class="main__link-default">1. Интро в Спринт</a></li> 
+            <li class="main__list-1-item"><a href="/sprint_01/theme_02" class="main__link-default">2. Шрифты и типографика</a></li>  
+            <li class="main__list-1-item"><a href="/sprint_01/theme_03" class="main__link-default">ITEM</a></li>
+            <li class="main__list-1-item"><a href="/sprint_01/theme_04" class="main__link-default">ITEM</a></li>
+            <li class="main__list-1-item"><a href="/sprint_01/theme_05" class="main__link-default">ITEM</a></li>
+            <li class="main__list-1-item"><a href="/sprint_01/theme_06" class="main__link-default">ITEM</a></li>
+            <li class="main__list-1-item"><a href="/sprint_01/theme_07" class="main__link-default">ITEM</a></li>
+            <li class="main__list-1-item"><a href="/sprint_01/theme_08" class="main__link-default">ITEM</a></li>        
         </ul>
     </div>
             

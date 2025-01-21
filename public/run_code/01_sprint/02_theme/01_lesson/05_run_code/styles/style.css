@@ -1,0 +1,27 @@
+/*
+Нужно дописать недописанные свойства.
+
+Используйте такие ссылки в скобках функции url():
+
+Заголовок: https://pictures.s3.yandex.net/fonts/Ibmplexserif.woff
+Текст: https://pictures.s3.yandex.net/fonts/ubuntu.woff
+
+*/
+
+@font-face {
+    src: url(https://pictures.s3.yandex.net/fonts/Ibmplexserif.woff);
+    font-family: 'IBM Plex Serif';
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(https://pictures.s3.yandex.net/fonts/ubuntu.woff);
+}
+
+.article__title {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.article__content {
+    font-family: 'Ubuntu', sans-serif;
+}

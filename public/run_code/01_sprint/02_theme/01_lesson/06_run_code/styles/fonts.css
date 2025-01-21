@@ -1,0 +1,11 @@
+.article__title {
+    font-family: 'Istok Web', sans-serif; /*альтернативный шрифт без засечек*/
+}
+
+.article__content {
+    font-family: Ubuntu, sans-serif; /*альтернативный шрифт без засечек*/
+}
+
+span {
+    font-family: 'IBM Plex Serif', serif; /*альтернативный шрифт с засечками*/;
+}

@@ -17,10 +17,34 @@ $color-link-hover-1: gold;
 /*----- Background Color -----*/
 $bg-dark-1: rgba(0,0,0, 0.8);
 $bg-dark-default: rgb(32, 33, 36);
+$bg-dark-accent: rgba(0,0,0,0.5); /* black */
+$bg-dark-mute: rgba(0,0,0,0.3);
 
 $bg-gray-1: rgba(128,128,128, 10); /* Grey */
 
+
 /*----- Font-Size -----*/
-$font-size-title-main-1: 40px;
-$font-size-title-main-2: 32px;
+$font-size-title-main-1: 50px;
+$font-size-title-main-2: 40px;
+$font-size-title-main-3: 28px;
 $font-size-span-title-main-1: 25px;
+
+$font-size-text-default: 26px;
+
+/*----- Font Weight -----*/
+$font-weight-1: 600;
+$font-weight-2: 500;
+$font-weight-3: 400;
+
+/*----- border -----*/
+$border-light-default: 1px solid #fff;
+$border-light-mute: 1px solid rgba(128,128,128, 10);
+$border-accent-mute: 2px solid rgba(178,34,34, 0.3);
+
+/*----- border-radius -----*/
+$border-radius-link-default: 5px;
+$border-radius-block-default: 5px;
+
+
+/*----- text__accent-padding -----*/
+$text-accent-padding: 5px;

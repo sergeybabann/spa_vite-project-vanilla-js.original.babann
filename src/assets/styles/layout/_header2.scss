@@ -1,0 +1,14 @@
+@use '../base/_variables' as *;
+
+.header2__content {
+  background-color: $bg-dark-default;
+  padding: 20px;
+}
+
+.header2__wrapper-1 {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+
+

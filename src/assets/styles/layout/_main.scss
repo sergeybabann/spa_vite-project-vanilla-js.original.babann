@@ -1,7 +1,13 @@
 @use '../base/_variables' as *;
 
+.margin__main {
+  margin: 0 300px 0 300px;
+}
+
 .main {
   padding: 40px;
+  //background: green;
+  //max-width: 600px;
 }
 
 .main__wrapper-1 {
@@ -12,11 +18,19 @@
 
 .main__title-1 {
   font-size: $font-size-title-main-1;
-  margin-bottom: 50px;
+  font-weight: $font-weight-1;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .main__title-2 {
   font-size: $font-size-title-main-2;
+  font-weight: $font-weight-2;
+}
+
+.main__title-3 {
+  font-size: $font-size-title-main-3;
+  font-weight: $font-weight-3;
 }
 
 .main__span-title-1 {
@@ -29,11 +43,10 @@
   text-decoration: none;
   &:hover {
     color: $color-link-hover-1;
-    text-decoration: underline;
   }
 }
 
-.main__bread-crumbs {
+.header2__bread-crumbs {
   display: flex;
   gap: 20px;
 }
@@ -42,14 +55,24 @@
   padding: 10px;
   background-color: $bg-gray-1;
   color: $color-dark-1;
-  border-radius: 5px;
+  border-radius: $border-radius-link-default;
   font-size: 25px;
   text-decoration: none;
+  max-height: 50px;
 
   &:hover {
     color: $color-link-hover-1;
-    text-decoration: underline;
   }
+}
+
+.external__link {
+  text-decoration: underline;
+  color: $color-light-1;
+}
+
+.download__link {
+  text-decoration: underline;
+  color: $color-light-1;
 }
 
 .main__list-1 {
@@ -62,5 +85,42 @@
 
 .main__list-1-item {
   list-style: none;
+}
+
+.run__code-block {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+  border: $border-light-mute;
+  border-radius: $border-radius-block-default;
+  background-color: $bg-dark-mute;
+}
+
+.run__code-link {
+  color: $color-light-1;
+  text-decoration: none;
+  padding: 10px;
+  background-color: $bg-gray-1;
+  border-radius: $border-radius-link-default;
+
+  &:hover {
+    color: $color-link-hover-1;
+  }
+}
+
+.text__accent-padding {
+  padding: $text-accent-padding;
+  border: $border-light-mute;
+  border-radius: 3px;
+  font-size: 24px;
+}
+
+.code__example-block {
+  font-size: 1rem;
+  border: $border-accent-mute;
+  border-radius: $border-radius-block-default;
+  background-color: $bg-dark-accent;
+  padding: 1.5rem;
 }
 

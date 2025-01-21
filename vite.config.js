@@ -9,8 +9,23 @@ export default defineConfig({
         },
     },
     server: {
-        open: true,
+        open: true, // Автоматически открывать браузер
+
+        historyApiFallback: {
+            rewrites: [
+                // Исключение для папки public (например, /run_code/*)
+                { from: /^\/run_code\/.*$/, to: (context) => context.parsedUrl.pathname },
+            ],
+        },
     },
+    middlewareMode: true,
+    configureServer: (server) => {
+        server.middlewares.use((req, res, next) => {
+            if (req.url.startsWith('/run_code/')) {
+                return next(); // Пропускаем запрос
+            }
+            next();
+        });
+    },
+    historyApiFallback: true,
 });
-
-
