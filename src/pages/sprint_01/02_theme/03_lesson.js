@@ -77,7 +77,7 @@ export default function Sprint_01_Theme_02_Lesson_03() {
           </p>
 
         <video width="640" height="360" controls>
-        <source src="/run_code/01_sprint/02_theme/03_lesson/Screen_Recording_2022-05-24.mp4" 
+        <source src="/video/01_sprint/02_theme/03_lesson/Screen_Recording_2022-05-24.mp4" 
         type="video/mp4">
             Ваш браузер не поддерживает видео.
         </video>
@@ -92,7 +92,7 @@ export default function Sprint_01_Theme_02_Lesson_03() {
         </p>
 
         <video width="640" height="360" controls>
-        <source src="/run_code/01_sprint/02_theme/03_lesson/Screen_Recording_2022-05-24_2.mp4" 
+        <source src="/video/01_sprint/02_theme/03_lesson/Screen_Recording_2022-05-24_2.mp4" 
         type="video/mp4">
             Ваш браузер не поддерживает видео.
         </video>
