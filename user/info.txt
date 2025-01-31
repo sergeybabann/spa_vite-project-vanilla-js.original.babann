@@ -2,3 +2,8 @@ git repo:
 
 https://github.com/sergeybabann/spa_vite-project-vanilla-js.original.babann
 
+
+stop: 
+
+01_sprint / 02_theme / 03_lesson - complete 
+

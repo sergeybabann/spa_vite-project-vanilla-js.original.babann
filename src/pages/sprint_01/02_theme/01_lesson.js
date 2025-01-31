@@ -1,5 +1,4 @@
 export default function Sprint_01_Theme_02_Lesson_01() {
-
   const lesson = document.createElement('lesson')
   lesson.classList.add('lesson')
 
@@ -110,7 +109,7 @@ export default function Sprint_01_Theme_02_Lesson_01() {
     Проанализируйте, что происходит в примере.
     </p>
     
-        <!-- 03 RUN CODE -->
+        <!-- 03 RUN CODE UNCOMMETNTED -->
     <div class="run__code-block">
     <a class="run__code-link" href="/run_code/01_sprint/02_theme/01_lesson/03_run_code/index.html" 
     target="_blank" rel="noopener noreferrer">Запустить код</a>
@@ -334,36 +333,6 @@ div {
     download>скачать блок кода</a>
    </div>
    
-   
-   
-   <pre class="code__example-block">
-   <code>
-   
-   </code>
-   </pre>
-   
-   <!-- 00 RUN CODE -->
-    <div class="run__code-block">
-    <a class="run__code-link" href="/run_code/01_sprint/02_theme/01_lesson/02_run_code/index.html" 
-    target="_blank" rel="noopener noreferrer">Запустить код</a>
-    <a class="run__code-link" 
-    href="/run_code/01_sprint/02_theme/01_lesson/00_run_code.zip" 
-    download>скачать блок кода</a>
-   </div>
-
-
-
-    
-    
-<!--    <span class="text__accent-padding"></span>-->
-<!--    -->
-<!--    &lt;!&ndash; RUN CODE 1 &ndash;&gt;-->
-<!--    <div class="run__code-block">-->
-<!--    <a class="run__code-link" href="/run_code/01_sprint/02_theme/01_lesson/02_run_code/index.html" -->
-<!--    target="_blank" rel="noopener noreferrer">Запустить код</a>-->
-<!--    <a class="run__code-link" href="/run_code/01_sprint/02_theme/01_lesson/00_run_code/code_example.zip" download>скачать блок кода</a>-->
-<!--    </div>-->
-
 
     </div><!--main__wrapper-1-->
     </div><!--main-->

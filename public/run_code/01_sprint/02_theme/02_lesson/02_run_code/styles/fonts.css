@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'IBM Plex Serif';
+  src: local('IBM Plex Serif'), local('IBMPlexSerif'),
+    local('IBM Plex Serif SemiBold'),
+    url(https://pictures.s3.yandex.net/fonts/Ibmplexserifsemibold.woff2)
+      format('woff2'),
+    url(https://pictures.s3.yandex.net/fonts/Ibmplexserifsemibold.woff)
+      format('woff'),
+    url(https://pictures.s3.yandex.net/fonts/Ibmplexserifsemibold.ttf)
+      format('truetype');
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: local('Ubuntu'), local('ubuntu'),
+    url(https://pictures.s3.yandex.net/fonts/ubuntu.woff2) format('woff2'),
+    url(https://pictures.s3.yandex.net/fonts/ubuntu.woff) format('woff'),
+    url(https://pictures.s3.yandex.net/fonts/ubuntu.ttf) format('truetype');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Istok Web';
+  src: local('Istok'), local('Istok Regular'), local('istok'),
+    local('istokregular'), local('Istok Web'),
+    url(https://pictures.s3.yandex.net/fonts/istokregular.woff2) format('woff2'),
+    url(https://pictures.s3.yandex.net/fonts/istokregular.woff) format('woff'),
+    url(https://pictures.s3.yandex.net/fonts/istokregular.ttf)
+      format('truetype');
+  font-weight: normal;
+  font-display: swap;
+}
